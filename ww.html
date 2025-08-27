@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="sae.jpeg" alt="avatar da Fernanda" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou rhian miguel</p>
+        <h1>Sou aluno do ensino mèdio</h1>
+        <p>Este è o meu primeiro portfólio programado com html, abaixo falo sobre minhas habilidades e os projetos que eu ja fiz usando JavaScript</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">Python</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="vanitas.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Sensor de mouse</h5>
+                        <p class="card-text">Este projeto é um sensor que se baseia em meio  que, vocë passa o mouse em cima e vai aparecer uma bola branca em volta dele, como se fosse `quente ou frio`, ou buscando
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto é um `jogo` baseado na brincadeira quente ou frio, quanto mais perto maior a bola fica, quanto mais longe menor fica.</p>
+                    <p>Um projeto que foi criado utilizando o curso do alura.</p>
+                    <p>nesse projeto eu utilizo o p5 js</p>
+                    <p>O p5.js é uma biblioteca JavaScript para codificação criativa, projetada para facilitar a criação de arte, animações e projetos interativos de forma acessível, especialmente para iniciantes, artistas e designers. Baseada nos princípios do projeto Processing, ela simplifica a programação com um conjunto de funções pré-escritas para manipular gráficos e elementos visuais na web, tornando o aprendizado de programação e a criação de protótipos mais fáceis.</p>
+                    <img src="img/projeto-1.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/Liquid_Natsu/full/a1_XC8CsO">Testar projeto</a>
+                    <a href="https://editor.p5js.org/Liquid_Natsu/sketches/a1_XC8CsO">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/settings/profile">github</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2025. Produzido por Rhian miguel</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
